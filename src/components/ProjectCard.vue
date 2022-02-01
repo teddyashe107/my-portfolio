@@ -23,7 +23,6 @@ const props = defineProps({
       <div class="relative aspect-square text-white hover:text-lime-800">
         <img
           :src="props.image"
-          loading="lazy"
           class="
             absolute
             inset-0
