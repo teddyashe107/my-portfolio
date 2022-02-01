@@ -115,7 +115,7 @@ const skill = {
 
               <a
                 class="mt-4 px-4 py-2 rounded-lg bg-purple-700"
-                href="https://drive.google.com/file/d/1PEBzDKRNs1T88jZpW4EMVri6F7cYT5zg/view?usp=sharing"
+                href="https://docs.google.com/document/d/1JJ5Mxr0EwbBJYtp9dzJhoyXk_SMZgO9nVBO_VJtnHpc/edit?usp=sharing"
                 target="_blank"
                 >CV/RESUME</a
               >
