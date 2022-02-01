@@ -174,18 +174,23 @@ const home = () => {
                   solves user-problems using design and/or technology.
                 </span>
               </p>
-
-              <base-btn
-                class="
-                  rounded-lg
-                  bg-gradient-to-tr
-                  from-lime-700
-                  to-lime-900
-                  hover:bg-gradient-to-tr hover:from-lime-900 hover:to-lime-500
-                "
-              >
-                contact me
-              </base-btn>
+              <div class="mt-7">
+                <a
+                  href="mailto:teddyashe107@gmail.com"
+                  class="
+                    p-4
+                    rounded-lg
+                    bg-gradient-to-tr
+                    from-lime-700
+                    to-lime-900
+                    hover:bg-gradient-to-tr
+                    hover:from-lime-900
+                    hover:to-lime-500
+                  "
+                >
+                  contact me
+                </a>
+              </div>
             </div>
             <social-media isVertical />
           </div>
@@ -198,16 +203,5 @@ const home = () => {
 <style scoped>
 .image-border-radius {
   border-radius: 27% 73% 70% 30% / 30% 30% 70% 70% !important;
-}
-a:link {
-  color: black;
-}
-a:hover {
-  color: blue;
-}
-
-a:active,
-a:focus {
-  color: green;
 }
 </style>

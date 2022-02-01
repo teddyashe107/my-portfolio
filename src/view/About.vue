@@ -26,18 +26,18 @@ const skill = {
               About me
             </h1>
             <p class="mt-4 sm:text-left text-lg">
-              I am Tewodros, full-stack softare developer based in Addis Abeba,
-              Ethiopia with a background in Electrical Engineering. I use code
-              to create websites, visuals, and more.
+              I am Tewodros, a full-stack software developer based in Addis
+              Abeba, Ethiopia with a background in Electrical Engineering. I use
+              code to create websites, visuals, and more.
             </p>
             <div class="p-2">
               <p class="mt-7 text-lg border-b-3">
                 As a curious learner, I'm always trying new things and finding
-                ways to improve my skills. I am working confident in JavaScript,
-                primarily in Vue3, GraphQL, Firebase, but I have experience
-                working in a wide range of technologies including Node &
-                Express, Mysql, PostgreSQL, REST API design, 3rd party APIs (
-                Auth0, and Twitter).
+                ways to improve my skills. I am working confidently in
+                JavaScript, primarily in Vue3, GraphQL, Firebase, but I have
+                experience working in a wide range of technologies including
+                Node & Express, Mysql, PostgreSQL, REST API design, 3rd party
+                APIs ( Auth0, and Twitter).
               </p>
             </div>
 
@@ -105,8 +105,8 @@ const skill = {
               </p>
               <br />
               I'm learning and improving my Digital Marketing skill.recently I
-              recived my fundamentals of digital marketing certificate from
-              Google . I love reading self-improvement books and listening to
+              received my fundamentals of digital marketing certificate from
+              Google. I love reading self-improvement books and listening to
               podcasts.
 
               <div class="shadow-lg shadow-gray-600 mt-4 border-2">
@@ -114,8 +114,8 @@ const skill = {
               </div>
 
               <a
-                class="mt-4 px-4 rounded-lg bg-purple-700"
-                href="#"
+                class="mt-4 px-4 py-2 rounded-lg bg-purple-700"
+                href="https://drive.google.com/file/d/1PEBzDKRNs1T88jZpW4EMVri6F7cYT5zg/view?usp=sharing"
                 target="_blank"
                 >CV/RESUME</a
               >
@@ -146,7 +146,9 @@ const skill = {
                 want to say hi, I’ll try my best to get back to you!
               </p>
 
-              <base-btn class="rounded-lg"> Send Email </base-btn>
+              <base-btn class="rounded-lg px-1 text-center">
+                Send Email
+              </base-btn>
             </div>
           </div>
         </section>
@@ -167,7 +169,7 @@ const skill = {
           </div>
         </div>
         <div class="relative">
-          <div class="fixed inline-flex bottom-4 right-4">
+          <div class="fixed inline-flex bottom-4 right-4 flex-shrink-0">
             <base-btn class="rounded-lg px-2"> Contact Me </base-btn>
           </div>
         </div>

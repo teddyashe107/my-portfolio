@@ -1,13 +1,16 @@
 <script setup>
 </script>
 <template>
-  <button class="mt-4 font-semibold sm:p-6 sm:text-center sm:self-center">
+  <a
+    class="mt-4 font-semibold sm:p-6 sm:text-center sm:self-center"
+    href="mailto:teddyashe107@gmail.com"
+  >
     <slot></slot>
-  </button>
+  </a>
 </template>
 
 <style scoped>
-button {
+a {
   z-index: 1;
   position: relative;
   font-size: inherit;
@@ -21,7 +24,7 @@ button {
   transition: color 0.4s ease-in-out;
 }
 
-button::before {
+a::before {
   content: "";
   z-index: -1;
   position: absolute;
@@ -36,12 +39,12 @@ button::before {
   transition: transform 0.45s ease-in-out;
 }
 
-button:hover {
+a:hover {
   cursor: pointer;
   color: #161616;
 }
 
-button:hover::before {
+a:hover::before {
   transform: translate3d(50%, 50%, 0) scale3d(15, 15, 15);
 }
 </style>
