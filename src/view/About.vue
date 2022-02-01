@@ -110,7 +110,7 @@ const skill = {
               podcasts.
 
               <div class="shadow-lg shadow-gray-600 mt-4 border-2">
-                <img src="images/certificate.png" alt="" />
+                <img src="/images/certificate.png" alt="" />
               </div>
 
               <a
