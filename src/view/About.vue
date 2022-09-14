@@ -2,6 +2,9 @@
 const skill = {
   skills: [
     { name: "JavaScript" },
+    { name: "Java" },
+    { name: "Docker"},
+    { name: "Nest Js"},
     { name: "Vue Js" },
     { name: "Node.js" },
     { name: "Tailwind Css" },
@@ -11,6 +14,7 @@ const skill = {
     { name: "GraphQL API" },
     { name: "MySql" },
     { name: "Postgres" },
+    { name: "Git/Github"}
   ],
 };
 </script>

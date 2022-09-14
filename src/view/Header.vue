@@ -60,7 +60,7 @@ const home = () => {
                   ring-2 ring-lime-600
                   image-border-radius
                 "
-                src="/images/portfolio.jpg"
+                src="/images/bg-free.png"
                 alt="logo"
               />
 
